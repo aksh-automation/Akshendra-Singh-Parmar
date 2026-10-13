@@ -11,31 +11,32 @@
 
 const projectsData = [
   {
-    id: "talentflow-ai-recruitment-agent",
-    title: "TalentFlow AI — Recruitment Agent",
-    category: "Automation · HR & Recruitment · AI Agent",
-    badge: "AI Agent",
-    mediaType: "image",
-    mediaUrl: "assets/AI resume screening agent/make workflow.png",
-    posterUrl: "assets/AI resume screening agent/make workflow.png",
-    gallery: [
-      { type: "image", url: "assets/AI resume screening agent/make workflow.png",          title: "Make.com Recruitment Workflow" },
-      { type: "image", url: "assets/AI resume screening agent/n8n workflow.png",            title: "n8n Recruitment Workflow" },
-      { type: "image", url: "assets/AI resume screening agent/Tally form.png",              title: "Tally Candidate Form" },
-      { type: "image", url: "assets/AI resume screening agent/tally form page 2.png",       title: "Tally Candidate Form — Page 2" },
-      { type: "image", url: "assets/AI resume screening agent/tally form page 3.png",       title: "Tally Candidate Form — Page 3" },
-      { type: "image", url: "assets/AI resume screening agent/tally form page 4.png",       title: "Tally Candidate Form — Page 4" },
-      { type: "image", url: "assets/AI resume screening agent/job requirement table.png",   title: "Job Requirements Table" },
-      { type: "image", url: "assets/AI resume screening agent/candidate table.png",         title: "Candidate Scoring Table" },
-      { type: "image", url: "assets/AI resume screening agent/application history table.png", title: "Application History Table" },
-      { type: "image", url: "assets/AI resume screening agent/email.png",                   title: "Recruiter Executive Summary Email" }
-    ],
-    projectUrl: "#",
-    problem: "Manually reviewing hundreds of resumes against job requirements creates severe hiring bottlenecks, inconsistent candidate evaluations, and delayed interview scheduling for high-priority talent.",
-    solution: "Built a multi-agent recruitment pipeline across Make.com and n8n that triggers upon Tally form submission. The system extracts structured JSON from PDF resumes, uses Gemini AI to evaluate candidates against Airtable job criteria, performs skill-gap analysis, syncs scores to Airtable ATS, and automatically emails a recruiter-ready executive summary with customized interview questions.",
-    result: "Resumes are parsed, scored, and categorized within moments of submission, giving hiring teams instant qualification briefs and structured candidate pipelines without manual screening.",
-    tags: ["Make.com", "n8n", "Gemini AI", "Airtable", "Tally", "Gmail"]
-  },
+  id: "talentflow-ai-recruitment-agent",
+  title: "TalentFlow AI — Recruitment Agent",
+  category: "Automation · HR & Recruitment · AI Agent",
+  badge: "AI Agent",
+  mediaType: "video",
+  mediaUrl: "assets/AI resume screening agent/youtube-short.mp4",
+  posterUrl: "assets/AI resume screening agent/make workflow.png",
+  gallery: [
+    { type: "video", url: "assets/AI resume screening agent/youtube-short.mp4", title: "Resume Screening Demo Video" },
+    { type: "image", url: "assets/AI resume screening agent/make workflow.png", title: "Make.com Recruitment Workflow" },
+    { type: "image", url: "assets/AI resume screening agent/n8n workflow.png", title: "n8n Recruitment Workflow" },
+    { type: "image", url: "assets/AI resume screening agent/Tally form.png", title: "Tally Candidate Form" },
+    { type: "image", url: "assets/AI resume screening agent/tally form page 2.png", title: "Tally Candidate Form — Page 2" },
+    { type: "image", url: "assets/AI resume screening agent/tally form page 3.png", title: "Tally Candidate Form — Page 3" },
+    { type: "image", url: "assets/AI resume screening agent/tally form page 4.png", title: "Tally Candidate Form — Page 4" },
+    { type: "image", url: "assets/AI resume screening agent/job requirement table.png", title: "Job Requirements Table" },
+    { type: "image", url: "assets/AI resume screening agent/candidate table.png", title: "Candidate Scoring Table" },
+    { type: "image", url: "assets/AI resume screening agent/application history table.png", title: "Application History Table" },
+    { type: "image", url: "assets/AI resume screening agent/email.png", title: "Recruiter Executive Summary Email" }
+  ],
+  projectUrl: "#",
+  problem: "Manually reviewing hundreds of resumes against job requirements creates severe hiring bottlenecks, inconsistent candidate evaluations, and delayed interview scheduling for high-priority talent.",
+  solution: "Built a multi-agent recruitment pipeline across Make.com and n8n that triggers upon Tally form submission. The system extracts structured JSON from PDF resumes, uses Gemini AI to evaluate candidates against Airtable job criteria, performs skill-gap analysis, syncs scores to Airtable ATS, and automatically emails a recruiter-ready executive summary with customized interview questions.",
+  result: "Resumes are parsed, scored, and categorized within moments of submission, giving hiring teams instant qualification briefs and structured candidate pipelines without manual screening.",
+  tags: ["Make.com", "n8n", "Gemini AI", "Airtable", "Tally", "Gmail"]
+},
   {
     id: "smart-email-manager",
     title: "Smart Email Manager",
