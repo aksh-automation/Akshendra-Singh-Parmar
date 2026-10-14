@@ -19,7 +19,7 @@ const projectsData = [
   mediaUrl: "assets/AI resume screening agent/youtube-short.mp4",
   posterUrl: "assets/AI resume screening agent/make workflow.png",
   gallery: [
-    { type: "video", url: "assets/AI resume screening agent/youtube-short.mp4", title: "Resume Screening Demo Video" },
+    { type: "video", url: "assets/AI resume screening agent/Youtube-short.mp4", title: "Resume Screening Demo Video" },
     { type: "image", url: "assets/AI resume screening agent/make workflow.png", title: "Make.com Recruitment Workflow" },
     { type: "image", url: "assets/AI resume screening agent/n8n workflow.png", title: "n8n Recruitment Workflow" },
     { type: "image", url: "assets/AI resume screening agent/Tally form.png", title: "Tally Candidate Form" },
